@@ -3,8 +3,7 @@
 :host {
 	main {
 		margin-top: rem-calc(40);
-        background: var(--white);
-        border-radius: rem-calc(25);
+ 
 
 		.pokemon__names {
 			position: relative;
@@ -40,6 +39,8 @@
 
 		.pokemon__status {
 			position: relative;
+			background: var(--white);
+			border-radius: rem-calc(25);
 
 			img {
 				position: absolute;
